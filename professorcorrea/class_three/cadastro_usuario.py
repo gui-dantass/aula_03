@@ -1,0 +1,10 @@
+nome = input ("qual é o seu nome: ")
+idade = int(input ("qual a sua idade: "))
+altura = float(input ("qual a sua altura: "))
+cidade = input ("qual a sua cidade: ")
+
+print ("o seu nome é ", + nome)
+print (" a sua idade é ", + idade )
+print("a sua altura é ", + altura)
+print("sua cidade é", + cidade)
+print(f"O seu nome é{nome} sua idade é {idade} sua altura é {altura} sua cidade é {cidade}" )
